@@ -15,7 +15,7 @@ import javax.ws.rs.core.MediaType;
 import org.jmb.productapi.core.ValidationException;
 import org.jmb.productapi.data.Product;
 
-@Path("/")
+@Path("/product")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public interface ProductApi {
